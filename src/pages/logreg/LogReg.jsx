@@ -232,6 +232,7 @@ const LogReg = () => {
                             id="login-email"
                             type="text"
                             required
+                            placeholder ="name"
                           />
                         </div>
                         <div className="input-block">
@@ -243,6 +244,7 @@ const LogReg = () => {
                             id="login-password"
                             type={togL ? 'password' : 'text'}
                             required
+                            placeholder ="password"
                           ></input>
 
                           <span class="field-icon toggle-password">
